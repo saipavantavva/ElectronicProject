@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    padding:0px;
+    
+}
+.myform{
+    background-color:white;
+    width:700px;
+    margin-left:25%;
+    margin-top:10%;
+    height:400px;
+    margin-bottom:200px;
+    position:relative;
+    box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+.myform-left
+{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:300px;
+    height:400px;
+}
+.myform-left h1{
+    margin-left:25%;
+    font-size:35px;
+    font-weight:300;
+    color:black;
+    margin-top:5px;
+    margin-bottom: 20px;
+        text-align:center;
+}
+.input input
+{
+    width:220px;
+    height:40px;
+    padding:4px;
+    border-radius:5px solid;
+    margin-bottom:5px;
+    border:none;
+    border-bottom:1px solid ;
+    font-size:15px;
+    
+}
+ .myform-left button{
+    margin-top:40px;
+    width:120px;
+    height:32px;
+    background-color:tomato;
+    border-radius:5px;
+    color:white;
+    border:none;
+    font-size:16px;
+    margin-left:30%;
+ 
+}
+.input a{
+   text-align:right;
+   margin-left:40%;
+
+}
+.myform-right
+{
+    width:350px;
+    height:400px;
+    padding:40px;
+    top:0;
+    right:0;
+    position:absolute;
+    background-color:tomato;
+
+}
+.icons {
+	margin-left:25%;
+}
+
+.icons a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+    color:#cc3366;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+    margin-bottom:20px;
+}
+.myform-right h1{
+    margin-top:60px;
+    text-align:center;
+    color:white;
+}
+.myform-right p
+{
+   color:white;
+   text-align:center;
+   font-size:20px;
+}
+.myform-right button{
+    margin-top:10px;
+    width:120px;
+    height:32px;
+    background-color:tomato;
+    border-radius:5px;
+    color:white;
+    border:1px solid gray;
+    font-size:16px;
+    margin-left:25%;
+}
+#section2
+{
+    
+    margin-top:200px;
+    height:420px;
+}

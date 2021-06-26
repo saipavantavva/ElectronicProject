@@ -1,0 +1,100 @@
+
+body{
+  padding: 0 10px;
+}
+.form{
+  height:auto;
+  width:600px;
+  background:lightseagreen;
+  margin: 5px auto;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.head{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color:#ff0000;
+  text-align: center;
+}
+
+ .form-content{
+  width: 500px;
+}
+
+ .inputdiv{
+	width: 600px;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content:flex-start; 
+    align-items: center;
+
+}
+
+
+ .inputdiv label,.radbtn label{
+   width: 200px;
+   color: black;
+   margin-left: 5px;
+  font-size:20px;
+}
+.inputdiv input,.textarea{
+  width: 300px;
+  
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  
+}
+
+ .textarea{
+  width: 300px;
+  height: 120px;
+  margin-bottom:10px;
+  
+}
+
+a button {
+  width: 250px;
+  padding: 10px 10px;
+  font-size: 20px; 
+  border: 0px;
+  background-color:tomato;
+  color:white;
+  border-radius: 5px;
+  margin-left:65%;
+  margin-bottom:20px;
+}
+button:hover{
+  background-color:lime;
+}
+.radbtn{
+	width: 600px;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content:flex-start; 
+    align-items: center;
+
+}
+#gender{
+    font-size:18px;
+	width:100px;
+}
+.link p
+{
+	
+	font-size:20px;
+	color:navy;
+	margin-left:160px;
+}
+.link a{
+	margin-left:10px;
+  color:navy;
+}
+#section2{
+  margin-top:200px;
+  margin-bottom:30px;
+}
